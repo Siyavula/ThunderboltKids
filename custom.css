@@ -6,28 +6,19 @@
 
 html,
 body {
-  height: 100%;
   font-family: 'Open Sans', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
 }
 
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by it's height */
-  margin: 0 auto -120px;
-}
 
-/* Set the fixed height of the footer here */
-#push,
-#footer {
-  height: 120px;
-}
-#footer {
+
+#footer{
   background-color: #7FC56D;
-  text-color: black;
+}
+footer#footer{
+    background-color: #7FC56D;
+    text-color: black;
+    height: auto;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -51,6 +42,7 @@ body {
 }
 .container .credit {
   margin: 20px 0;
+  padding: auto;
 }
 
 code {
@@ -64,6 +56,57 @@ code {
    outline-width: 2px;
 }
 
-div.sasollogo > img {
-    max-height:120px;
+div.sasollogo {
+    padding: 5% 0;
 }
+
+div.container.main-content{
+    min-height: 100px;
+}
+
+.grade-button {
+    padding: 5% 0;
+    height: 100px;
+    outline: black solid thick;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+div.grade-button {
+    position: relative;
+}
+
+div.grade-button > a {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    color: black;
+}
+.grade-button {
+    font-size:xx-large;
+
+}
+
+
+/* 
+ *
+ * Colours 
+ *
+ */
+.gr4 {
+    background-color: #7FC56D;
+}
+
+.gr5 {
+    background-color: #FED08F;
+}
+
+.gr6 {
+    background-color: #3887C7;
+}
+
