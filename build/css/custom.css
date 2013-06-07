@@ -1,0 +1,112 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+
+
+#footer{
+  background-color: #7FC56D;
+}
+footer#footer{
+    background-color: #7FC56D;
+    text-color: black;
+    height: auto;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding-top: 120px;
+}
+.container .credit {
+  margin: 20px 0;
+  padding: auto;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+.outline {
+   outline-color: black;
+   outline-style: solid;
+   outline-width: 2px;
+}
+
+div.sasollogo {
+    padding: 5% 0;
+}
+
+div.container.main-content{
+    min-height: 100px;
+}
+
+.grade-button {
+    padding: 5% 0;
+    height: 100px;
+    outline: black solid thick;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+div.grade-button {
+    position: relative;
+}
+
+div.grade-button > a {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    color: black;
+}
+.grade-button {
+    font-size:xx-large;
+
+}
+
+
+/* 
+ *
+ * Colours 
+ *
+ */
+.gr4 {
+    background-color: #7FC56D;
+}
+
+.gr5 {
+    background-color: #FED08F;
+}
+
+.gr6 {
+    background-color: #3887C7;
+}
+
