@@ -42,3 +42,9 @@ if __name__ == "__main__":
     main = env.get_template('meet-the-kids.html').render()
     page = generate_page(base, navbar, footer, main)
     save_page(page, 'build/meet-the-kids.html')
+
+
+    #grade4 main page
+    main = env.get_template('grade4.html').render()
+    page = generate_page(base, navbar, footer, main)
+    save_page(page, 'build/grade4.html')
