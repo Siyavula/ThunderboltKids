@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FuturaLTCondensedExtraBoldRegular';
+    src: url('futura_lt_condensed_extra_bold.eot');
+    src: url('futura_lt_condensed_extra_bold.eot') format('embedded-opentype'),
+         url('futura_lt_condensed_extra_bold.woff') format('woff'),
+         url('futura_lt_condensed_extra_bold.ttf') format('truetype'),
+         url('futura_lt_condensed_extra_bold.svg#FuturaLTCondensedExtraBoldRegular') format('svg');
+}
