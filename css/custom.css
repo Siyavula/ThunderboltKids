@@ -19,53 +19,64 @@ html, body {
 .matterandmaterials .Activitykid {
 	background: url(../img/tom/Tomactivityleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 370px
 }
 .matterandmaterials .keyquestionskid,
 .matterandmaterials .keyconceptskid {
 	background: url(../img/tom/Tomkeyleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px
 }
 .matterandmaterials .Questionskid {
 	background: url(../img/tom/Tomquestionleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 440px
 }
 .matterandmaterials .Revisionkid {
 	background: url(../img/tom/Tomrevisionleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 350px;
 }
 .matterandmaterials .Investigationkid {
 	background: url(../img/tom/Tominvestigationsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 
 .matterandmaterials [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/tom/tom2visitleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/tom/Tom2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/tom/Tom2didyouknowleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [data-type*="newwords"]:after {
     background: url(../img/tom/Tom2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [data-type*="didyouknow"]:after {
     background: url(../img/tom/Tom2didyouknowleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials div[data-type*="visit"]:after {
     background: url(../img/tom/Tom2visitleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 
 /* Life and Living Styles
@@ -81,12 +92,14 @@ html, body {
 .lifeandliving .Activitykid {
 	background: url(../img/farrah/Farrahactivitiesleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 380px
 }
 .lifeandliving .keyquestionskid,
 .lifeandliving .keyconceptskid {
 	background: url(../img/farrah/Farrahkeyleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 280px;
 	width: 100%;
 	float: left
@@ -94,41 +107,50 @@ html, body {
 .lifeandliving .Questionskid {
 	background: url(../img/farrah/Farrahquestionsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 450px
 }
 .lifeandliving .Revisionkid {
 	background: url(../img/farrah/Farrahrevisionsleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px;
 }
 .lifeandliving [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/farrah/Farrah2visitleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/farrah/Farrah2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/farrah/Farrah2didyouknowleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [data-type*="newwords"]:after {
     background: url(../img/farrah/Farrah2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [data-type*="didyouknow"]:after {
     background: url(../img/farrah/Farrah2didyouknowleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving div[data-type*="visit"]:after {
     background: url(../img/farrah/Farrah2visitleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving .Investigationkid {
 	background: url(../img/farrah/Farrahinvestigationsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 /* Energy and Change Styles
 ------------------------------------------------- */
@@ -143,44 +165,53 @@ html, body {
 .energyandchange .Activitykid {
 	background: url(../img/jojo/Jojoactivitiesleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px
 }
 .energyandchange .keyquestionskid,
 .energyandchange .keyconceptskid {
 	background: url(../img/jojo/Jojokeyleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 420px
 }
 .energyandchange .Questionskid {
 	background: url(../img/jojo/Jojoquestionsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 330px
 }
 .energyandchange .Revisionkid {
 	background: url(../img/jojo/Jojorevisionsleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px;
 }
 .energyandchange [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/jojo/Jojo2visitleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/jojo/Jojo2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/jojo/Jojo2didyouknowleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [data-type*="newwords"]:after {
     background: url(../img/jojo/Jojo2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [data-type*="didyouknow"]:after {
     background: url(../img/jojo/Jojo2didyouknowleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange div[data-type*="visit"]:after {
     background: url(../img/jojo/Jojo2visitleftbottom.png) no-repeat #fff;
@@ -189,6 +220,7 @@ html, body {
 .energyandchange .Investigationkid {
 	background: url(../img/jojo/Jojoinvestigationsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 /* Earth and Beyond Styles
 ------------------------------------------------- */
@@ -203,12 +235,14 @@ html, body {
 .earthandbeyond .Activitykid {
 	background: url(../img/sophie/Sophieactivitiesleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 435px
 }
 .earthandbeyond .keyquestionskid,
 .earthandbeyond .keyconceptskid {
 	background: url(../img/sophie/Sophiekeyleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 360px;
 	width: 100%;
 	float: left
@@ -216,30 +250,36 @@ html, body {
 .earthandbeyond .Questionskid {
 	background: url(../img/sophie/Sophiequestionsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 440px
 }
 .earthandbeyond .Revisionkid {
 	background: url(../img/sophie/Sophierevisionsleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 300px;
 }
 
 .earthandbeyond [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/sophie/Sophie2visitleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/sophie/Sophie2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/sophie/Sophie2didyouknowleftbottom.png) no-repeat #E1E6D1;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [data-type*="newwords"]:after {
     background: url(../img/sophie/Sophie2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [data-type*="didyouknow"]:after {
     background: url(../img/sophie/Sophie2didyouknowleftbottom.png) no-repeat #fff;
@@ -248,10 +288,12 @@ html, body {
 .earthandbeyond div[data-type*="visit"]:after {
     background: url(../img/sophie/Sophie2visitleftbottom.png) no-repeat #fff;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond .Investigationkid {
 	background: url(../img/sophie/Sophieinvestigationsleft.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 /* Activity Styles
 -------------------------------------------------- */
@@ -344,10 +386,10 @@ html, body {
     clear: both;
     float: left;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 30px;
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 [data-type*="keyconcepts"]:before {
@@ -363,15 +405,17 @@ html, body {
 [data-type*="keyquestions"], [data-type*="keyconcepts"] {
     background: url(../img/pins.png) no-repeat 50% 10px #fce78e;
     background-size: contain;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     padding: 0 10px;
     float: left;
-    width: 70%;
+    width:100%
 }
 /* New Words
 ------------------------------------------------- */
 [data-type*="newwords"]:before {
     background: url(../img/newwordslefttop.png) no-repeat;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     content:"New Words";
     float: left;
     margin-top: -21px;
@@ -386,6 +430,7 @@ html, body {
 [data-type*="newwords"] {
     background: url(../img/newwordsleftmiddle.png) repeat-y;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     width: 100%;
     float: left;
     font-size: 13px;
@@ -414,12 +459,14 @@ html, body {
 [data-type*="didyouknow"]:before {
     background: url(../img/didyouknowlefttop.png) no-repeat;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     content:"Did You Know?";
     text-align: center;
     font-size: 15px;
     float: left;
     margin-top: -25px;
     width: 100%;
+    max-width: 100%;
     padding-top: 15px;
     text-transform: uppercase;
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -427,16 +474,17 @@ html, body {
 [data-type*="didyouknow"] {
     background: url(../img/didyouknowleftmiddle.png) repeat-y;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     width: 100%;
     float: left;
     margin: 0!important;
-    font-size: 13px
+    font-size: 13px;
 }
 
 [data-type*="didyouknow"]:after {
     content:"";
     float: left;
-    height: 365px;
+    height: 400px;
     width: 100%;
 }
 
@@ -508,6 +556,7 @@ word-break: break-all
 }
 .home-buttons .span2 img {
 	max-width: 96px;
+	height: 96px\9
 }
 .home-buttons .span2 img, .meetkids .text-center a img {
     width: 100%;
@@ -551,11 +600,12 @@ div.notattop {
     padding: 0
 }
 .nav > li {
-    margin: 0 0 20px
+    margin: 0 0 15px
 }
 .nav > li > a, .nav > li > ul > li {
     font-family: ftb, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-bottom: 1px solid #fff;
+    line-height: 1.2
 }
 .nav > li > ul > li {
     padding-left: 30px;
@@ -569,9 +619,11 @@ div.notattop {
 .nav > li > ul > li > ul > li {
     font-family: flb, "Helvetica Neue", Helvetica, Arial, sans-serif !important
 }
+.nav > li > ul > li > ul > li:last-child ul li:last-child {padding-bottom: 5px;}
 .navbar .nav > li > ul > li a {
-    padding: 10px 10px 10px 0px;
+    padding: 8px 10px 8px 0px;
     float: left;
+    line-height: 1.1
 }
 a.nav-eng {
     margin: 0!important;
@@ -681,7 +733,7 @@ Home Page Styles
 }
 
 .frontpage body {
-    background: url(../img/homebg.jpg) no-repeat 50% 0;
+    background: url(../img/homebg.jpg) no-repeat 50% 20px;
 }
 .frontpage .main-content {
     padding-top: 0!important
@@ -691,7 +743,8 @@ Home Page Styles
     width:100%
 }
 .logo {
-    margin-left: 0
+    margin-left: 0;
+    max-width: 100%;
 }
 .thin {
     font-weight: 200
@@ -756,11 +809,13 @@ Home Page Styles
 -------------------------------------------------- */
 .pagebg {
     background: url(../img/opbg.jpg) repeat-y 50% -300px;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .headbg {
     background: url(../img/headbg.jpg) no-repeat 50% 0;
-    background-size: 100%
+    background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .content {
     padding: 10px
@@ -793,16 +848,19 @@ Home Page Styles
 .farrah-container {
     background: url(../img/greenline.png) no-repeat 80% 100%;
     background-size: 620px;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     padding-bottom: 60px
 }
 .tom-container {
     background: url(../img/blueline.png) no-repeat 55% 100%;
     background-size: 760px;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     padding-bottom: 100px
 }
 .jojo-container {
     background: url(../img/yellowline.png) no-repeat 85% 100%;
     background-size: 530px;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     padding-bottom: 60px
 }
 #farrah {
@@ -924,7 +982,7 @@ Home Page Styles
     margin: 0
 }
 .etabs .tab a {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 2em;
     display: block;
     outline: none;
@@ -1009,6 +1067,9 @@ Home Page Styles
     font-family: fcb, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
     line-height: normal
+}
+.chapter-pix .span6 img {
+	width: 100%;
 }
 .grade-info-con {
     text-align: center;
@@ -1343,6 +1404,7 @@ div[type*="Questions"] > p {
 div[data-type*="visit"]:before {
 	background: url(../img/visitlefttop.png) no-repeat;
 	background-size: 100%;
+	-ms-behavior: url(/js/backgroundsize.min.htc);
 	content:"Visit";
     text-align: center;
     font-size: 15px;
@@ -1356,6 +1418,7 @@ div[data-type*="visit"]:before {
 div[data-type*="visit"] {
 	background: url(../img/visitleftmiddle.png) repeat-y;
     background-size: 100%;
+    -ms-behavior: url(/js/backgroundsize.min.htc);
     width: 100%;
     float: left;
     font-size: 14px
@@ -1367,7 +1430,8 @@ div[data-type*="visit"]:after {
     float: left
 }
 
-div[data-type*="visit"] p {
+div[data-type*="visit"] p,
+div[data-type*="visit"] a {
 	width: 100%;
 	padding: 0 13px 0 6px;
 	text-align: center
@@ -1567,8 +1631,8 @@ section,.section {
 */
  @font-face {
     font-family:'grlp';
-    src: url('../fonts/cicle_fina-webfont.eot');
-    src: url('../fonts/cicle_fina-webfont.eot?iefix') format('eot'), url('../fonts/cicle_fina-webfont.svg') format('svg'), url('../fonts/cicle_fina-webfont.ttf') format('truetype'),url('../fonts/cicle_fina-webfont.woff') format('woff');
+    src: url('../fonts/alrightsans-light-v3-webfont.eot');
+    src: url('../fonts/alrightsans-light-v3-webfont.eot?iefix') format('eot'), url('../fonts/alrightsans-light-v3-webfont.svg') format('svg'), url('../fonts/alrightsans-light-v3-webfont.ttf') format('truetype'),url('../fonts/alrightsans-light-v3-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -1607,40 +1671,41 @@ section,.section {
     font-weight: normal;
     font-style: normal;
 }
-/* Sticky footer styles
+/* Sticky styles
 -------------------------------------------------- */
-#footer {
-    color:#fff
-}
+
 #footer .grey .container {
 	background: none transparent!important
 }
-footer#footer {
-    text-color: #fff;
+footer,#footer {
+    color: #fff;
     height: auto;
 }
-#footer .grey, footer#footer .grey {
+#footer .grey, #footer .grey {
     background-color: #3c3c3c;
 }
-#footer .white, footer#footer .white {
+#footer .white, #footer .white {
     background-color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #ccc;
 }
-#footer .credits, footer#footer .credits {
+#footer .white .span3 img, #footer .white .span3 img {
+	padding: 0 20px
+}
+#footer .credits, #footer .credits {
     color: #3c3c3c;
     padding-top: 20px;
     font-family: flb,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background: #fff
 }
-footer a, footer#footer a {
+footer a, #footer a {
     color: #fff
 }
-footer ul, footer#footer ul {
+footer ul, #footer ul {
     list-style: none;
     margin-left: 0
 }
-footer ul li, footer#footer ul li {
+footer ul li, #footer ul li {
 	line-height: 1.6;
 	font-family: flb,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 18px
@@ -1710,7 +1775,16 @@ div.grade-button > a {
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
+@media (min-width: 1400px) {
+	.frontpage body {
+	    background-size: 100% auto;
+	    background-position: 50% 0!important
+	}
+}
 @media (min-width: 1200px) {
+	.frontpage body {
+	    background-position: 50% 20px;
+	}
 	.grade {
 		font-size: 55px;
 		margin-left: 16px;
@@ -1732,11 +1806,11 @@ div.grade-button > a {
 	[data-type*="didyouknow"]:before {
 		margin-top: -30px
 	}
+	.etabs .tab a {
+		font-size: 14px;
+	}
 }
 @media (max-width:1024px) {
-	 .frontpage body {
-	    background-position: 50% 20px
-    }
 	.etabs {height: auto!important}
 
 	.headbg,.pagebg {
@@ -1747,6 +1821,7 @@ div.grade-button > a {
 		width: 100%;
 		height: 540px;
 		background-size: 100%;
+		-ms-behavior: url(/js/backgroundsize.min.htc);
 		animation: 0s ease 0s normal none 1 none;
 		-webkit-animation: 0s ease 0s normal none 1 none;
 		-moz-animation: 0s ease 0s normal none 1 none
@@ -1759,14 +1834,13 @@ div.grade-button > a {
     }
     div[data-type*="visit"]:before {
     	margin-top: -18px;
-    }
-
+   }
 }
 @media (max-width:979px) {
 	.bannerimg {
 		height: 440px
 	}
-    .etabs .tab a {
+	.etabs .tab a {
 	    font-size: 12px;
     }
     .attop,
@@ -1861,6 +1935,9 @@ div.grade-button > a {
 	.frontpage body {
         background:none!important
     }
+    .flexslider .slides {
+	    max-height: none
+    }
     .banner-text {
         padding:30px 0 10px;
         background:#f49f2b
@@ -1885,6 +1962,10 @@ div.grade-button > a {
     footer#footer .grey, #footer .grey {
         padding:20px
     }
+    #footer .white .span3 img, footer#footer .white .span3 img {
+		padding: 20px 0
+	}
+
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
         margin-right:-20px;
         margin-left:-20px
@@ -1982,9 +2063,6 @@ div.grade-button > a {
 		position: relative;
 		top:0
     }
-    div.notattop {
-    	position: fixed!important
-    }
     .navbar .nav {
     	display: none
     }
@@ -2000,14 +2078,29 @@ div.grade-button > a {
 	.product-title {
 		text-align: center
 	}
+
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
 	.language-nav a {padding: 0!important}
 }
 
 @media (max-width: 480px) {
-
+	td {
+		word-break: break-all;
+	}
 }
 @media (max-width: 479px) {
-    }
 
+}
+/* IE8 hacks */
+.section.span9.offset3 {
+	max-width:960px\9!important
+}
+.maincontent.span9 {
+	width:760px\9!important;
+}
+.sidebar.span3 {
+	width:200px\9!important
+}
+[data-type*="newwords"]:before,
+[data-type*="newwords"]:after {width: 200px\9!important}
