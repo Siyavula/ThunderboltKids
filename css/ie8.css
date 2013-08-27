@@ -1,0 +1,12 @@
+/* IE8 hacks */
+.section.span9.offset3 {
+	max-width: 960px!important
+}
+.maincontent.span9 {
+	width:760px!important;
+}
+.sidebar.span3 {
+	width:200px!important
+}
+[data-type*="newwords"]:before,
+[data-type*="newwords"]:after {width: 200px!important}

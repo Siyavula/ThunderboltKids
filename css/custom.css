@@ -2092,15 +2092,3 @@ div.grade-button > a {
 @media (max-width: 479px) {
 
 }
-/* IE8 hacks */
-.section.span9.offset3 {
-	max-width:960px\9!important
-}
-.maincontent.span9 {
-	width:760px\9!important;
-}
-.sidebar.span3 {
-	width:200px\9!important
-}
-[data-type*="newwords"]:before,
-[data-type*="newwords"]:after {width: 200px\9!important}
