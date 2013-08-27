@@ -19,64 +19,53 @@ html, body {
 .matterandmaterials .Activitykid {
 	background: url(../img/tom/Tomactivityleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 370px
 }
 .matterandmaterials .keyquestionskid,
 .matterandmaterials .keyconceptskid {
 	background: url(../img/tom/Tomkeyleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px
 }
 .matterandmaterials .Questionskid {
 	background: url(../img/tom/Tomquestionleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 440px
 }
 .matterandmaterials .Revisionkid {
 	background: url(../img/tom/Tomrevisionleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 350px;
 }
 .matterandmaterials .Investigationkid {
 	background: url(../img/tom/Tominvestigationsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 
 .matterandmaterials [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/tom/tom2visitleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/tom/Tom2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/tom/Tom2didyouknowleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [data-type*="newwords"]:after {
     background: url(../img/tom/Tom2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials [data-type*="didyouknow"]:after {
     background: url(../img/tom/Tom2didyouknowleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .matterandmaterials div[data-type*="visit"]:after {
     background: url(../img/tom/Tom2visitleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 
 /* Life and Living Styles
@@ -92,14 +81,12 @@ html, body {
 .lifeandliving .Activitykid {
 	background: url(../img/farrah/Farrahactivitiesleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 380px
 }
 .lifeandliving .keyquestionskid,
 .lifeandliving .keyconceptskid {
 	background: url(../img/farrah/Farrahkeyleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 280px;
 	width: 100%;
 	float: left
@@ -107,50 +94,41 @@ html, body {
 .lifeandliving .Questionskid {
 	background: url(../img/farrah/Farrahquestionsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 450px
 }
 .lifeandliving .Revisionkid {
 	background: url(../img/farrah/Farrahrevisionsleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px;
 }
 .lifeandliving [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/farrah/Farrah2visitleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/farrah/Farrah2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/farrah/Farrah2didyouknowleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [data-type*="newwords"]:after {
     background: url(../img/farrah/Farrah2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving [data-type*="didyouknow"]:after {
     background: url(../img/farrah/Farrah2didyouknowleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving div[data-type*="visit"]:after {
     background: url(../img/farrah/Farrah2visitleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .lifeandliving .Investigationkid {
 	background: url(../img/farrah/Farrahinvestigationsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 /* Energy and Change Styles
 ------------------------------------------------- */
@@ -165,53 +143,44 @@ html, body {
 .energyandchange .Activitykid {
 	background: url(../img/jojo/Jojoactivitiesleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px
 }
 .energyandchange .keyquestionskid,
 .energyandchange .keyconceptskid {
 	background: url(../img/jojo/Jojokeyleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 420px
 }
 .energyandchange .Questionskid {
 	background: url(../img/jojo/Jojoquestionsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 330px
 }
 .energyandchange .Revisionkid {
 	background: url(../img/jojo/Jojorevisionsleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 430px;
 }
 .energyandchange [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/jojo/Jojo2visitleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/jojo/Jojo2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/jojo/Jojo2didyouknowleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [data-type*="newwords"]:after {
     background: url(../img/jojo/Jojo2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange [data-type*="didyouknow"]:after {
     background: url(../img/jojo/Jojo2didyouknowleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .energyandchange div[data-type*="visit"]:after {
     background: url(../img/jojo/Jojo2visitleftbottom.png) no-repeat #fff;
@@ -220,7 +189,6 @@ html, body {
 .energyandchange .Investigationkid {
 	background: url(../img/jojo/Jojoinvestigationsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 /* Earth and Beyond Styles
 ------------------------------------------------- */
@@ -235,14 +203,12 @@ html, body {
 .earthandbeyond .Activitykid {
 	background: url(../img/sophie/Sophieactivitiesleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 435px
 }
 .earthandbeyond .keyquestionskid,
 .earthandbeyond .keyconceptskid {
 	background: url(../img/sophie/Sophiekeyleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 360px;
 	width: 100%;
 	float: left
@@ -250,36 +216,30 @@ html, body {
 .earthandbeyond .Questionskid {
 	background: url(../img/sophie/Sophiequestionsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 440px
 }
 .earthandbeyond .Revisionkid {
 	background: url(../img/sophie/Sophierevisionsleft.png) no-repeat;
 	width: 100%;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 	height: 300px;
 }
 
 .earthandbeyond [type*="Activity"] div[data-type*="visit"]:after {
     background: url(../img/sophie/Sophie2visitleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [type*="Activity"] [data-type*="newword"]:after {
     background: url(../img/sophie/Sophie2newwordsleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [type*="Activity"] [data-type*="didyouknow"]:after {
     background: url(../img/sophie/Sophie2didyouknowleftbottom.png) no-repeat #E1E6D1;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [data-type*="newwords"]:after {
     background: url(../img/sophie/Sophie2newwordsleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond [data-type*="didyouknow"]:after {
     background: url(../img/sophie/Sophie2didyouknowleftbottom.png) no-repeat #fff;
@@ -288,12 +248,10 @@ html, body {
 .earthandbeyond div[data-type*="visit"]:after {
     background: url(../img/sophie/Sophie2visitleftbottom.png) no-repeat #fff;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
 }
 .earthandbeyond .Investigationkid {
 	background: url(../img/sophie/Sophieinvestigationsleft.png) no-repeat;
 	background-size: 100%;
-	-ms-behavior: url(/js/backgroundsize.min.htc);
 }
 /* Activity Styles
 -------------------------------------------------- */
@@ -307,7 +265,8 @@ html, body {
     width: 100%
 }
 
-[type*="Activity"] figure {
+[type*="Activity"] figure,
+[type*="Activity"] .figure {
     clear: both;
     margin: 0;
     padding: 20px 0;
@@ -415,7 +374,6 @@ html, body {
 [data-type*="newwords"]:before {
     background: url(../img/newwordslefttop.png) no-repeat;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
     content:"New Words";
     float: left;
     margin-top: -21px;
@@ -430,7 +388,6 @@ html, body {
 [data-type*="newwords"] {
     background: url(../img/newwordsleftmiddle.png) repeat-y;
     background-size: 100%;
-    -ms-behavior: url(/js/backgroundsize.min.htc);
     width: 100%;
     float: left;
     font-size: 13px;
@@ -495,27 +452,31 @@ html, body {
 /* Figure
 -------------------------------------------------- */
 
-figure {
+figure,
+.figure {
     float: left;
     margin: 20px 0;
     max-width: 100%;
     width: 100%
 }
-figure img {
+figure img,
+.figure img {
 	margin: auto;
 	float: none;
 	max-height: 500px;
 	width: auto
 }
-figure a.lightbox {
-	width: 59%;
+figure a.lightbox,
+.figure a.lightbox {
+	width: 300px;
 	float: left;
 	text-align: center
 }
 .nofigc {
 	width: 100%!important
 }
-figcaption.caption {
+figcaption.caption,
+.caption {
     float: right;
     text-align: center;
     padding: 0 20px;
@@ -556,7 +517,6 @@ word-break: break-all
 }
 .home-buttons .span2 img {
 	max-width: 96px;
-	height: 96px\9
 }
 .home-buttons .span2 img, .meetkids .text-center a img {
     width: 100%;
