@@ -213,7 +213,7 @@
     .row-fluid [class*="span"]:first-child {
         margin-left:0
     }
-    .row-fluid .controls-row [class*="span"] + [class*="span"] {
+    .row-fluid .controls-row [class*="span"]+ [class*="span"] {
         margin-left:2.7624309392265194%
     }
     .row-fluid .span12 {
@@ -408,37 +408,6 @@
         padding-right:20px;
         padding-left:20px
     }
-    .frontpage body {
-        background:none!important
-    }
-    .banner-text {
-        padding:30px 0 10px;
-        background:#f49f2b
-    }
-    .banner-text h1 {
-        text-align:center
-    }
-    .banner-image {
-        text-align:center;
-        background:#f49f2b
-    }
-    .grades div.grade-button, .grades div.grade-button:first-child {
-        width:90%;
-        margin:40px 5%
-    }
-    .frontpage .main-content {
-        background:#0274b0
-    }
-    .grades {
-        background:#5bad3f
-    }
-    footer#footer .grey, #footer .grey {
-        padding:20px
-    }
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-        margin-right:-20px;
-        margin-left:-20px
-    }
     .container-fluid {
         padding:0
     }
@@ -568,9 +537,6 @@
 @media(max-width:979px) {
     body {
         padding-top:0
-    }
-    .navbar-fixed-top, .navbar-fixed-bottom {
-        position:static
     }
     .navbar-fixed-top {
         margin-bottom:20px

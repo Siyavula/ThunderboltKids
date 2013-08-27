@@ -1,12 +1,24 @@
 /* IE8 hacks */
-.section.span9.offset3 {
-	max-width: 960px!important
-}
-.maincontent.span9 {
-	width:760px!important;
+
+div.maincontent.span9 {
+	width: 520px!important;
 }
 .sidebar.span3 {
-	width:200px!important
+	width:150px!important;
 }
 [data-type*="newwords"]:before,
+[data-type*="newwords"],
 [data-type*="newwords"]:after {width: 200px!important}
+.home-buttons .span2 img {
+	height: 96px
+}
+
+[data-type*="newwords"]:before {
+    background: url(../img/newwordslefttopie8.png) no-repeat!important;
+}
+[data-type*="newwords"] {
+    background: url(../img/newwordsleftmiddleie8.png) repeat-y!important;
+}
+.lifeandliving [data-type*="newwords"]:after {
+    background: url(../img/farrah/Farrah2newwordsleftbottomie8.png) no-repeat #fff!important;
+}
