@@ -8,7 +8,7 @@ div.maincontent.span9 {
 }
 [data-type*="newwords"]:before,
 [data-type*="newwords"],
-[data-type*="newwords"]:after {width: 200px!important}
+[data-type*="newwords"]:after {width: 150px!important}
 .home-buttons .span2 img {
 	height: 96px
 }
@@ -19,6 +19,146 @@ div.maincontent.span9 {
 [data-type*="newwords"] {
     background: url(../img/newwordsleftmiddleie8.png) repeat-y!important;
 }
+.matterandmaterials .Activitykid {
+	background: url(../img/tom/Tomactivityleftie8.png) no-repeat!important;
+}
+.matterandmaterials .keyquestionskid,
+.matterandmaterials .keyconceptskid {
+	background: url(../img/tom/Tomkeyleftie8.png) no-repeat!important;
+}
+.matterandmaterials .Questionskid {
+	background: url(../img/tom/Tomquestionleftie8.png) no-repeat!important;
+}
+.matterandmaterials .Revisionkid {
+	background: url(../img/tom/Tomrevisionleftie8.png) no-repeat!important;
+}
+.matterandmaterials .Investigationkid {
+	background: url(../img/tom/Tominvestigationsleftie8.png) no-repeat!important;
+}
+.matterandmaterials [type*="Activity"] div[data-type*="visit"]:after {
+    background: url(../img/tom/tom2visitleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.matterandmaterials [type*="Activity"] [data-type*="newword"]:after {
+    background: url(../img/tom/Tom2newwordsleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.matterandmaterials [type*="Activity"] [data-type*="didyouknow"]:after {
+    background: url(../img/tom/Tom2didyouknowleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.matterandmaterials [data-type*="newwords"]:after {
+    background: url(../img/tom/Tom2newwordsleftbottomie8.png) no-repeat #fff!important;
+}
+.matterandmaterials [data-type*="didyouknow"]:after {
+    background: url(../img/tom/Tom2didyouknowleftbottomie8.png) no-repeat #fff!important;
+}
+.matterandmaterials div[data-type*="visit"]:after {
+    background: url(../img/tom/Tom2visitleftbottomie8.png) no-repeat #fff!important;
+}
+
+
+
+
+.lifeandliving .Activitykid {
+	background: url(../img/farrah/Farrahactivitiesleftie8.png) no-repeat!important;
+}
+.lifeandliving .keyquestionskid,
+.lifeandliving .keyconceptskid {
+	background: url(../img/farrah/Farrahkeyleftie8.png) no-repeat!important;
+}
+.lifeandliving .Questionskid {
+	background: url(../img/farrah/Farrahquestionsleftie8.png) no-repeat!important;
+}
+.lifeandliving .Revisionkid {
+	background: url(../img/farrah/Farrahrevisionsleftie8.png) no-repeat!important;
+}
+.lifeandliving [type*="Activity"] div[data-type*="visit"]:after {
+    background: url(../img/farrah/Farrah2visitleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.lifeandliving [type*="Activity"] [data-type*="newword"]:after {
+    background: url(../img/farrah/Farrah2newwordsleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.lifeandliving [type*="Activity"] [data-type*="didyouknow"]:after {
+    background: url(../img/farrah/Farrah2didyouknowleftbottomie8.png) no-repeat #E1E6D1!important;
+}
 .lifeandliving [data-type*="newwords"]:after {
     background: url(../img/farrah/Farrah2newwordsleftbottomie8.png) no-repeat #fff!important;
+}
+.lifeandliving [data-type*="didyouknow"]:after {
+    background: url(../img/farrah/Farrah2didyouknowleftbottomie8.png) no-repeat #fff!important;
+}
+.lifeandliving div[data-type*="visit"]:after {
+    background: url(../img/farrah/Farrah2visitleftbottomie8.png) no-repeat #fff!important;
+}
+.lifeandliving .Investigationkid {
+	background: url(../img/farrah/Farrahinvestigationsleftie8.png) no-repeat!important;
+}
+
+.energyandchange .Activitykid {
+	background: url(../img/jojo/Jojoactivitiesleftie8.png) no-repeat!important;
+}
+.energyandchange .keyquestionskid,
+.energyandchange .keyconceptskid {
+	background: url(../img/jojo/Jojokeyleftie8.png) no-repeat!important;
+}
+.energyandchange .Questionskid {
+	background: url(../img/jojo/Jojoquestionsleftie8.png) no-repeat!important;
+}
+.energyandchange .Revisionkid {
+	background: url(../img/jojo/Jojorevisionsleftie8.png) no-repeat!important;
+}
+.energyandchange [type*="Activity"] div[data-type*="visit"]:after {
+    background: url(../img/jojo/Jojo2visitleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.energyandchange [type*="Activity"] [data-type*="newword"]:after {
+    background: url(../img/jojo/Jojo2newwordsleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.energyandchange [type*="Activity"] [data-type*="didyouknow"]:after {
+    background: url(../img/jojo/Jojo2didyouknowleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.energyandchange [data-type*="newwords"]:after {
+    background: url(../img/jojo/Jojo2newwordsleftbottomie8.png) no-repeat #fff!important;
+}
+.energyandchange [data-type*="didyouknow"]:after {
+    background: url(../img/jojo/Jojo2didyouknowleftbottomie8.png) no-repeat #fff!important;
+}
+.energyandchange div[data-type*="visit"]:after {
+    background: url(../img/jojo/Jojo2visitleftbottomie8.png) no-repeat #fff!important;
+}
+.energyandchange .Investigationkid {
+	background: url(../img/jojo/Jojoinvestigationsleftie8.png) no-repeat!important;
+}
+
+.earthandbeyond .Activitykid {
+	background: url(../img/sophie/Sophieactivitiesleftie8.png) no-repeat!important;
+}
+.earthandbeyond .keyquestionskid,
+.earthandbeyond .keyconceptskid {
+	background: url(../img/sophie/Sophiekeyleftie8.png) no-repeat!important;
+}
+.earthandbeyond .Questionskid {
+	background: url(../img/sophie/Sophiequestionsleftie8.png) no-repeat!important;
+}
+.earthandbeyond .Revisionkid {
+	background: url(../img/sophie/Sophierevisionsleftie8.png) no-repeat!important;
+}
+
+.earthandbeyond [type*="Activity"] div[data-type*="visit"]:after {
+    background: url(../img/sophie/Sophie2visitleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.earthandbeyond [type*="Activity"] [data-type*="newword"]:after {
+    background: url(../img/sophie/Sophie2newwordsleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.earthandbeyond [type*="Activity"] [data-type*="didyouknow"]:after {
+    background: url(../img/sophie/Sophie2didyouknowleftbottomie8.png) no-repeat #E1E6D1!important;
+}
+.earthandbeyond [data-type*="newwords"]:after {
+    background: url(../img/sophie/Sophie2newwordsleftbottomie8.png) no-repeat #fff!important;
+}
+.earthandbeyond [data-type*="didyouknow"]:after {
+    background: url(../img/sophie/Sophie2didyouknowleftbottomie8.png) no-repeat #fff!important;
+}
+.earthandbeyond div[data-type*="visit"]:after {
+    background: url(../img/sophie/Sophie2visitleftbottomie8.png) no-repeat #fff!important;
+}
+.earthandbeyond .Investigationkid {
+	background: url(../img/sophie/Sophieinvestigationsleftie8.png) no-repeat!important;
 }
