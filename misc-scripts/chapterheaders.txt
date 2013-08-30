@@ -1,0 +1,26 @@
+<head>
+    <title>Thunderbolt Kids</title>
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width, initial-scale=1.0,IE=edge,chrome=1">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" media="screen"><!-- Bootstrap -->
+    <link href="../../css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="../../css/custom.min.css" rel="stylesheet" media="screen"><!-- custom css stylesheet -->
+    <link href="../../css/themes/carbono/jquery.lightbox.css" rel="stylesheet" media="screen">
+	<!--[if lt IE 9]><link href="../../css/ie8.css" rel="stylesheet" media="screen"><![endif]-->
+    <link rel="icon" type="image/ico" href="../../img/favicon.png">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36714231-1']);
+  _gaq.push(['_setDomainName', 'thunderboltkids.co.za']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
