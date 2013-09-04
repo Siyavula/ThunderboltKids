@@ -12,7 +12,18 @@ div.maincontent.span9 {
 .home-buttons .span2 img {
 	height: 96px
 }
-
+[data-type*="didyouknow"]:before {
+	 background: url(../img/didyouknowlefttopie8.png) no-repeat!important;
+}
+[data-type*="didyouknow"]:before {
+	 background: url(../img/didyouknowleftmiddleie8.png) repeat-y!important;
+}
+[data-type*="visit"]:before {
+	background: url(../img/visitlefttopie8.png) no-repeat!important
+}
+[data-type*="visit"] {
+	background: url(../img/visitleftmiddleie8.png) repeat-y!important
+}
 [data-type*="newwords"]:before {
     background: url(../img/newwordslefttopie8.png) no-repeat!important;
 }
@@ -53,9 +64,6 @@ div.maincontent.span9 {
 .matterandmaterials div[data-type*="visit"]:after {
     background: url(../img/tom/Tom2visitleftbottomie8.png) no-repeat #fff!important;
 }
-
-
-
 
 .lifeandliving .Activitykid {
 	background: url(../img/farrah/Farrahactivitiesleftie8.png) no-repeat!important;
