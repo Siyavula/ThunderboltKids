@@ -5,17 +5,38 @@ div.maincontent.span9 {
 }
 .sidebar.span3 {
 	width:150px!important;
+	margin-top: 40px
+}
+.figure {
+	width: 520px;
+	float: left;
+	clear: both
+}
+body .figure img {
+	max-width: 300px!important
+}
+body .figure .caption {
+	max-width:200px!important
 }
 [data-type*="newwords"]:before,
 [data-type*="newwords"],
-[data-type*="newwords"]:after {width: 150px!important}
+[data-type*="newwords"]:after,
+[data-type*="didyouknow"]:before,
+[data-type*="didyouknow"],
+[data-type*="didyouknow"]:after,
+[data-type*="visit"]:before,
+[data-type*="visit"],
+[data-type*="visit"]:after {width: 150px!important}
 .home-buttons .span2 img {
 	height: 96px
+}
+[data-type*="keyquestions"], [data-type*="keyconcepts"] {
+	background: url(../img/pinsie8.png) no-repeat!important
 }
 [data-type*="didyouknow"]:before {
 	 background: url(../img/didyouknowlefttopie8.png) no-repeat!important;
 }
-[data-type*="didyouknow"]:before {
+[data-type*="didyouknow"] {
 	 background: url(../img/didyouknowleftmiddleie8.png) repeat-y!important;
 }
 [data-type*="visit"]:before {
