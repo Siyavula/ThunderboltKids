@@ -31,7 +31,7 @@ body .figure .caption {
 	height: 96px
 }
 [data-type*="keyquestions"], [data-type*="keyconcepts"] {
-	background: url(../img/pinsie8.png) no-repeat!important
+	background: url(../img/pinsie8.png) no-repeat #FCE78E!important
 }
 [data-type*="didyouknow"]:before {
 	 background: url(../img/didyouknowlefttopie8.png) no-repeat!important;
