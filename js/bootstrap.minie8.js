@@ -1,61 +1,5 @@
 $ = jQuery;
-/*!
- * jQuery Lightbox Evolution - for jQuery 1.4+
- * http://codecanyon.net/item/jquery-lightbox-evolution/115655?ref=aeroalquimia
- *
- * Copyright (c) 2013, Eduardo Daniel Sada
- * Released under CodeCanyon Regular License.
- * http://codecanyon.net/licenses/regular
- *
- * Version: 1.7.1 (February 17 2013)
- */
- /*
- * debouncedresize: special jQuery event that happens once after a window resize
- *
- * latest version and complete README available on Github:
- * https://github.com/louisremi/jquery-smartresize
- *
- * Copyright 2012 @louis_remi
- * Licensed under the MIT license.
- *
- * This saved you an hour of work?
- * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
- */
-(function($) {
 
-var $event = $.event,
-	$special,
-	resizeTimeout;
-
-$special = $event.special.debouncedresize = {
-	setup: function() {
-		$( this ).on( "resize", $special.handler );
-	},
-	teardown: function() {
-		$( this ).off( "resize", $special.handler );
-	},
-	handler: function( event, execAsap ) {
-		// Save the context
-		var context = this,
-			args = arguments,
-			dispatch = function() {
-				// set correct event type
-				event.type = "debouncedresize";
-				$event.dispatch.apply( context, args );
-			};
-
-		if ( resizeTimeout ) {
-			clearTimeout( resizeTimeout );
-		}
-
-		execAsap ?
-			dispatch() :
-			resizeTimeout = setTimeout( dispatch, $special.threshold );
-	},
-	threshold: 150
-};
-
-})(jQuery);
 eval(function(h, b, i, d, g, f) {
 	g = function(a) {
 		return (a < b ? "" : g(parseInt(a / b))) + ((a = a % b) > 35 ? String.fromCharCode(a + 29) : a.toString(36))
@@ -179,7 +123,7 @@ eval(function(h, b, i, d, g, f) {
 			}
 		}); /* Check if something appears when window is resized. */
 
-		$(window).on("debouncedresize", function( event ) {
+		$(window).resize( function( event ) {
 			update();
 		});
 		 /* With IOS5 force loading images when navigating with back button. */
@@ -2360,30 +2304,17 @@ jQuery(window).load(function() {
 			$('.span8, .price', this).equalHeights();
 		});
 		$("img.lazy").lazyload({
-			effect: 'fadeIn',
-			load: function() {
-				jQuery(this).delay(50).queue(function() {
-					var h = 0;
-					var f = 0
-					var h = jQuery(this).height();
-					var f = jQuery(this).parents('figure').find('figcaption.caption').height();
-					jQuery(this).parents('figure').find('figcaption.caption').css('margin-top', (h - f) / 2 + 'px');
-					jQuery(this).parents('tr').find('td').equalHeights();
-				});
-			}
+			effect: 'fadeIn'
 		});
 	} else {
 		jQuery('.products .span8, .price').css('height', 'auto');
 		$("img.lazy").lazyload({
-			effect: 'fadeIn',
-			load: function() {
-				jQuery(this).parents('tr').find('td').equalHeights();
-			}
+			effect: 'fadeIn'
 		});
 	}
 });
 
-	$(window).on("debouncedresize", function( event ) {
+	$(window).resize(function( event ) {
 		if (matchMedia("only screen and (min-width : 768px)").matches) {
 			var a = 0;
 			var a = jQuery(".bannerimg").height();
