@@ -99,7 +99,7 @@ inzalo.foundation@sasol.com</a> </li>
             <script src="../../js/selectivizr.min.js"></script>
             <script src="../../js/bootstrap.minie8.js"></script>
         <![endif]-->
-        <![if !lt IE 9]>
+        <!--[if !lt IE 9]>
             <script src="../../js/bootstrap.min.js"></script>
-        <![endif]>
+        <![endif]-->
 </footer>
