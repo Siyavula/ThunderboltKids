@@ -281,7 +281,7 @@ html, body {
 	font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-article.afrikaans [type*="Activity"] > .title:before {
+.afrikaans [type*="Activity"] > .title:before {
 	content: "Aktiwiteit: ";
 }
 
@@ -323,7 +323,7 @@ article.afrikaans [type*="Activity"] > .title:before {
 
 /* Revision Afrikaans
 -------------------------------------------------- */
-article.afrikaans  [type*="Revision"] > h1.title:before {
+.afrikaans  [type*="Revision"] > h1.title:before {
 	content: "Hersiening: ";
 	text-transform: uppercase;
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -355,7 +355,7 @@ article.afrikaans  [type*="Revision"] > h1.title:before {
 
 /* Investigation Styles afrikaans
 -------------------------------------------------- */
-article.afrikaans [type*="Investigation"] > h1.title:before {
+.afrikaans [type*="Investigation"] > h1.title:before {
 	content: "Ondersoek: ";
 	text-transform: uppercase;
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -395,11 +395,11 @@ article.afrikaans [type*="Investigation"] > h1.title:before {
 }
 /* Key Questions & Key Concepts afrikaans
 ------------------------------------------------- */
-article.afrikaans [data-type*="keyquestions"]:before {
+.afrikaans [data-type*="keyquestions"]:before {
     content:"Sleutelvrae";
 }
 
-article.afrikaans [data-type*="keyconcepts"]:before {
+.afrikaans [data-type*="keyconcepts"]:before {
     content:"Sleutelkonsepte";
 }
 
@@ -420,7 +420,7 @@ article.afrikaans [data-type*="keyconcepts"]:before {
     text-align: center
 }
 
-article.afrikaans [data-type*="newwords"]:before {
+.afrikaans [data-type*="newwords"]:before {
     content:"Nuwe Woorde";
 }
 
@@ -468,7 +468,7 @@ article.afrikaans [data-type*="newwords"]:before {
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-article.afrikaans [data-type*="didyouknow"]:before {
+.afrikaans [data-type*="didyouknow"]:before {
     content:"Het Jy Geweet?";
 }
 
@@ -1385,7 +1385,7 @@ div[type*="Questions"]:before {
 	width: 100%
 }
 
-article.afrikaans div[type*="Questions"]:before {
+.afrikaans div[type*="Questions"]:before {
 	content: "Vrae";
 }
 
@@ -1426,7 +1426,7 @@ div[data-type*="visit"]:before {
     width: 100%
 }
 
-article.afrikaans div[data-type*="visit"]:before {
+.afrikaans div[data-type*="visit"]:before {
 	content:"Besoek";
 }
 
