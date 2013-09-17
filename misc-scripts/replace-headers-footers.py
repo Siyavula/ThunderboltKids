@@ -20,18 +20,18 @@ if __name__ == "__main__":
     oldfooter.getparent().replace(oldfooter, newfooter)
 
 
-    for html5tag in ['aside' ,'section', 'figure', 'figcaption', 'article', 'footer']:
-        for tag in html.findall('.//%s' % html5tag):
-            if 'class' in tag.attrib.keys():
-                cssclass = tag.attrib['class']
-            else:
-                cssclass = ''
+#   for html5tag in ['aside' ,'section', 'figure', 'figcaption', 'article', 'footer']:
+#       for tag in html.findall('.//%s' % html5tag):
+#           if 'class' in tag.attrib.keys():
+#               cssclass = tag.attrib['class']
+#           else:
+#               cssclass = ''
 
-            ie8before = r'[if lt IE 9]><div class="{cssclass}"><![endif]'.format(cssclass=cssclass)
-            ie8after = r'[if lt IE 9]></div><![endif]'
+#           ie8before = r'[if lt IE 9]><div class="{cssclass}"><![endif]'.format(cssclass=cssclass)
+#           ie8after = r'[if lt IE 9]></div><![endif]'
 
-            tag.addprevious(etree.Comment(ie8before))
-            tag.addnext(etree.Comment(ie8after))
+#           tag.addprevious(etree.Comment(ie8before))
+#           tag.addnext(etree.Comment(ie8after))
 
 
     with open(htmlfilename, 'w') as f:
