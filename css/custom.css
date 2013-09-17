@@ -280,6 +280,11 @@ html, body {
 	text-transform: uppercase;
 	font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif
 }
+
+article.afrikaans [type*="Activity"] > .title:before {
+	content: "Aktiwiteit: ";
+}
+
 [type*="Activity"] > .title {
     max-width: 100%;
     font-family: @font
@@ -316,6 +321,15 @@ html, body {
     background: #FBC6B2
 }
 
+/* Revision Afrikaans
+-------------------------------------------------- */
+article.afrikaans  [type*="Revision"] > h1.title:before {
+	content: "Hersiening: ";
+	text-transform: uppercase;
+    font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
 
 /* Investigation Styles
 -------------------------------------------------- */
@@ -338,6 +352,16 @@ html, body {
 .Investigationkid {
 	height: 440px
 }
+
+/* Investigation Styles afrikaans
+-------------------------------------------------- */
+article.afrikaans [type*="Investigation"] > h1.title:before {
+	content: "Ondersoek: ";
+	text-transform: uppercase;
+    font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
 /* Key Questions & Key Concepts
 ------------------------------------------------- */
 [data-type*="keyquestions"]:before {
@@ -369,6 +393,16 @@ html, body {
     float: left;
     width:100%
 }
+/* Key Questions & Key Concepts afrikaans
+------------------------------------------------- */
+article.afrikaans [data-type*="keyquestions"]:before {
+    content:"Sleutelvrae";
+}
+
+article.afrikaans [data-type*="keyconcepts"]:before {
+    content:"Sleutelkonsepte";
+}
+
 /* New Words
 ------------------------------------------------- */
 [data-type*="newwords"]:before {
@@ -385,6 +419,11 @@ html, body {
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center
 }
+
+article.afrikaans [data-type*="newwords"]:before {
+    content:"Nuwe Woorde";
+}
+
 [data-type*="newwords"] {
     background: url(../img/newwordsleftmiddle.png) repeat-y;
     background-size: 100%;
@@ -428,6 +467,11 @@ html, body {
     text-transform: uppercase;
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+article.afrikaans [data-type*="didyouknow"]:before {
+    content:"Het Jy Geweet?";
+}
+
 [data-type*="didyouknow"] {
     background: url(../img/didyouknowleftmiddle.png) repeat-y;
     background-size: 100%;
@@ -1340,6 +1384,12 @@ div[type*="Questions"]:before {
 	padding-top: 10px;
 	width: 100%
 }
+
+article.afrikaans div[type*="Questions"]:before {
+	content: "Vrae";
+}
+
+
 div[type*="Questions"] {
     border: 10px solid #FBC1C1;
     background: transparent;
@@ -1375,6 +1425,12 @@ div[data-type*="visit"]:before {
     font-family: grb,"Helvetica Neue",Helvetica,Arial,sans-serif;
     width: 100%
 }
+
+article.afrikaans div[data-type*="visit"]:before {
+	content:"Besoek";
+}
+
+
 div[data-type*="visit"] {
 	background: url(../img/visitleftmiddle.png) repeat-y;
     background-size: 100%;
