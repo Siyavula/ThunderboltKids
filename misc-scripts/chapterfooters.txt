@@ -1,4 +1,4 @@
-    <footer id="footer"><!--[if lt IE 9]> <div id="footer"><![endif]--><div class="row-fluid grey">
+ <footer id="footer"><!--[if lt IE 9]> <div id="footer"><![endif]--><div class="row-fluid grey">
             <div class="container">
                 <div class="span4">
                     <p class="credit">ABOUT THE PROJECT</p>
@@ -94,8 +94,8 @@ inzalo.foundation@sasol.com</a> </li>
                 </div>
             </div>
         </div>
-        <script src="../../js/jquery.min.js"></script>
-<!--[if lt IE 9]>
+        <script src="../../js/jquery.min.js"></script><!--[if lt IE 9]>
 <script src="../../js/selectivizr.min.js"></script>
+<script src="../../js/bootstrap.minie8.js"></script>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]--><script src="../../js/bootstrap.min.js"></script><!--[if lt IE 9]></div> <![endif]--></footer>
