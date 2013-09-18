@@ -6,6 +6,23 @@ html, body {
 	font-size: 18px;
 }
 
+/*IE8 upgrade banner styles*/
+
+#upgrade-banner{
+    height:auto;
+    background-color: white;
+    position:fixed;
+    border: 1px solid black;    
+    z-index:100;
+}
+
+#upgrade-banner > p{
+    margin:10px;
+    float:center;
+    text-align: center;
+    font-weight:bold;
+
+}
 /* Matter and Materials Styles
 ------------------------------------------------- */
 .matterandmaterials .offset3 > .section >h1.title {
