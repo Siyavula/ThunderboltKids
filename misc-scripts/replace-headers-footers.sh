@@ -6,8 +6,10 @@
 
 
 for chapterfile in $(find Grade* -name '*.html' -print); do
-    echo $chapterfile
-    python misc-scripts/replace-headers-footers.py $chapterfile misc-scripts/chapterheaders.txt misc-scripts/chapterfooters.txt
-    python misc-scripts/replace-toc.py $chapterfile misc-fixes/ToCfixed.html
+    python misc-scripts/add-ie8-banner.py $chapterfile 
+done
+
+for chapterfile in $(find * -name '*.html' -print); do
+    python misc-scripts/add-ie8-banner.py $chapterfile 
 done
 
