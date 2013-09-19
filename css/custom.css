@@ -11,9 +11,12 @@ html, body {
 #upgrade-banner{
     height:auto;
     background-color: white;
-    position:fixed;
     border: 1px solid black;    
     z-index:100;
+    left: 0px;
+    top:0px;
+    position: fixed;
+    clear:both;
 }
 
 #upgrade-banner > p{
@@ -23,6 +26,11 @@ html, body {
     font-weight:bold;
 
 }
+
+/*#banner-padding{
+    padding-top: 70px;
+}*/
+
 /* Matter and Materials Styles
 ------------------------------------------------- */
 .matterandmaterials .offset3 > .section >h1.title {
