@@ -5,11 +5,12 @@
 #done
 
 
-for chapterfile in $(find Grade* -name '*.html' -print); do
-    python misc-scripts/add-ie8-banner.py $chapterfile 
-done
+#for chapterfile in $(find Grade* -name '*.html' -print); do
+#    python misc-scripts/add-ie8-banner.py $chapterfile 
+#done
 
 for chapterfile in $(find * -name '*.html' -print); do
-    python misc-scripts/add-ie8-banner.py $chapterfile 
+    echo $chapterfile
+   python misc-scripts/add-ie8-banner.py $chapterfile 
 done
 
